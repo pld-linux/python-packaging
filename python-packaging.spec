@@ -3,7 +3,7 @@
 %bcond_without	doc		# don't build doc
 %bcond_without	tests		# py.test tests
 %bcond_without	python2		# CPython 2.x module
-%bcond_without	python3		# CPython 3.x module
+%bcond_with	python3		# CPython 3.x module (built from python3-packaging.spec)
 %bcond_without	setuptools	# build without setuptools (for bootstraping)
 
 Summary:	Core utilities for Python packages
